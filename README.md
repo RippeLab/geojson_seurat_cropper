@@ -19,7 +19,7 @@ Recommended:
 QPath:
 1) Open the image corresponding to the FOV to crop in Seurat.
 2) Draw the region to crop as a polygon annotation: \
-https://qupath.readthedocs.io/en/0.3/docs/reference/commands.html#polygon
+https://qupath.readthedocs.io/en/0.3/docs/reference/commands.html#polygon \
 The wand tool could also work: \
 https://qupath.readthedocs.io/en/0.3/docs/reference/commands.html#wand-tool
 3) Export the annotation as geojson file: \
