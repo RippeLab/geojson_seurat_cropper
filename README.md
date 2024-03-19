@@ -16,7 +16,16 @@ Recommended:
 
 ## Usage
 
-Setup:
+QPath:
+1) Open the image corresponding to the FOV to crop in Seurat.
+2) Draw the region to crop as a polygon annotation: \
+https://qupath.readthedocs.io/en/0.3/docs/reference/commands.html#polygon
+The wand tool could also work: \
+https://qupath.readthedocs.io/en/0.3/docs/reference/commands.html#wand-tool
+3) Export the annotation as geojson file: \
+https://qupath.readthedocs.io/en/0.3/docs/advanced/exporting_annotations.html#geojson
+
+R Setup:
 ```
 library(Seurat)
 library(data.table)
